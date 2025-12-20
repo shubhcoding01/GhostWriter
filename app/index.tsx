@@ -1,11 +1,6 @@
 
 
 
-// import { LinearGradient } from 'expo-linear-gradient';
-// import { useFocusEffect, useRouter } from 'expo-router';
-// import { useCallback, useState } from 'react';
-// import { FlatList, StatusBar, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-// import { getNotes, Note } from '../utils/storage';
 
 // export default function Home() {
 //   const router = useRouter();
