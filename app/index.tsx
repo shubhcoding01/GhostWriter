@@ -1,23 +1,4 @@
 
-
-
-
-// export default function Home() {
-//   const router = useRouter();
-//   const [notes, setNotes] = useState<Note[]>([]);
-
-//   // Reload notes every time we come back to this screen
-//   useFocusEffect(
-//     useCallback(() => {
-//       loadNotes();
-//     }, [])
-//   );
-
-//   const loadNotes = async () => {
-//     const saved = await getNotes();
-//     setNotes(saved);
-//   };
-
 //   const createNew = () => {
 //     const newId = Date.now().toString(); // Simple ID generation
 //     router.push({ pathname: "/editor", params: { id: newId, isNew: "true" } });
