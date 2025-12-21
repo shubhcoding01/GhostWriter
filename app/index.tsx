@@ -1,49 +1,4 @@
 
-//   const createNew = () => {
-//     const newId = Date.now().toString(); // Simple ID generation
-//     router.push({ pathname: "/editor", params: { id: newId, isNew: "true" } });
-//   };
-
-//   const openNote = (id: string) => {
-//     router.push({ pathname: "/editor", params: { id } });
-//   };
-
-//   return (
-//     <View style={styles.container}>
-//       <StatusBar barStyle="light-content" />
-//       <LinearGradient colors={['#0f172a', '#000']} style={styles.background} />
-      
-//       <View style={styles.content}>
-//         <Text style={styles.header}>My Projects 📂</Text>
-        
-//         <FlatList
-//           data={notes}
-//           keyExtractor={(item) => item.id}
-//           contentContainerStyle={{ paddingBottom: 100 }}
-//           ListEmptyComponent={
-//             <Text style={styles.emptyText}>No notes yet. Start writing!</Text>
-//           }
-//           renderItem={({ item }) => (
-//             <TouchableOpacity style={styles.card} onPress={() => openNote(item.id)}>
-//               <Text style={styles.cardTitle}>{item.title}</Text>
-//               <Text style={styles.cardPreview} numberOfLines={2}>
-//                 {item.currentContent}
-//               </Text>
-//               <Text style={styles.cardDate}>
-//                 {new Date(item.updatedAt).toLocaleDateString()}
-//               </Text>
-//             </TouchableOpacity>
-//           )}
-//         />
-
-//         {/* Floating Action Button */}
-//         <TouchableOpacity style={styles.fab} onPress={createNew}>
-//           <Text style={styles.fabText}>+</Text>
-//         </TouchableOpacity>
-//       </View>
-//     </View>
-//   );
-// }
 
 // const styles = StyleSheet.create({
 //   container: { flex: 1, backgroundColor: '#000' },
