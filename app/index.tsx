@@ -1,11 +1,6 @@
 
 
-// const styles = StyleSheet.create({
-//   container: { flex: 1, backgroundColor: '#000' },
-//   background: { position: 'absolute', left: 0, right: 0, top: 0, bottom: 0 },
-//   content: { flex: 1, padding: 20, paddingTop: 60 },
-//   header: { fontSize: 32, fontWeight: 'bold', color: '#fff', marginBottom: 20 },
-//   emptyText: { color: '#666', textAlign: 'center', marginTop: 50, fontSize: 16 },
+
 //   card: {
 //     backgroundColor: 'rgba(255,255,255,0.1)',
 //     padding: 20,
