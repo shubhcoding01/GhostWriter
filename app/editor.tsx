@@ -1,4 +1,3 @@
-
 import * as Clipboard from 'expo-clipboard'; // Run: npx expo install expo-clipboard
 import { LinearGradient } from 'expo-linear-gradient';
 import { useLocalSearchParams, useRouter } from 'expo-router';

@@ -1,32 +1,3 @@
-
-
-
-//   card: {
-//     backgroundColor: 'rgba(255,255,255,0.1)',
-//     padding: 20,
-//     borderRadius: 15,
-//     marginBottom: 15,
-//     borderWidth: 1,
-//     borderColor: 'rgba(255,255,255,0.05)',
-//   },
-//   cardTitle: { color: '#fff', fontSize: 18, fontWeight: 'bold', marginBottom: 5 },
-//   cardPreview: { color: '#aaa', fontSize: 14 },
-//   cardDate: { color: '#555', fontSize: 12, marginTop: 10, textAlign: 'right' },
-//   fab: {
-//     position: 'absolute',
-//     bottom: 30,
-//     right: 30,
-//     width: 60,
-//     height: 60,
-//     borderRadius: 30,
-//     backgroundColor: '#3b82f6',
-//     justifyContent: 'center',
-//     alignItems: 'center',
-//     elevation: 10,
-//   },
-//   fabText: { fontSize: 30, color: '#fff', marginTop: -2 },
-// });
-
 import { LinearGradient } from 'expo-linear-gradient';
 import { useFocusEffect, useRouter } from 'expo-router';
 import { useCallback, useState } from 'react';
