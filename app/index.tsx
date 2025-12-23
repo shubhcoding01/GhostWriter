@@ -17,7 +17,7 @@ import { getNotes, Note } from '../utils/storage';
 const { width, height } = Dimensions.get('window');
 
 // Load the local logo (Make sure icon.png exists in your assets folder)
-const LogoImage = require('../assets/icon.png');
+// const LogoImage = require('../assets/icon.png');
 
 export default function Home() {
   const router = useRouter();
@@ -58,7 +58,7 @@ export default function Home() {
       {/* This sits behind everything else */}
       <View style={styles.logoContainer}>
         <Image 
-          source={LogoImage} 
+          // source={LogoImage} 
           style={styles.bgLogo} 
           resizeMode="contain"
         />
